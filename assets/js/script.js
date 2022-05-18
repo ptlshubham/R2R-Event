@@ -269,14 +269,14 @@
           // Called on window resize
           resizeEvent: function() {
             var gradient1 = this.ctx.createLinearGradient(0, 0, this.width, 0);
-            gradient1.addColorStop(0,"rgba(0, 172, 238, 1)");
-            gradient1.addColorStop(0.54,"rgba(239, 165, 6, 1)");
-            gradient1.addColorStop(1,"rgba(236, 57, 139, 1)");
+            gradient1.addColorStop(0,"rgba(227, 30, 36, 71)");
+            gradient1.addColorStop(0.54,"rgba(205, 140,39, 20)");
+            gradient1.addColorStop(1,"rgba(150, 37, 35, 47)");
 
             var gradient2 = this.ctx.createLinearGradient(0, 0, this.width, 0);
-            gradient2.addColorStop(0,"rgba(32, 171, 208, 1)");
-            gradient2.addColorStop(0.50,"rgba(83, 72, 182, 1)");
-            gradient2.addColorStop(1,"rgba(234, 8, 140, 1)");
+            gradient2.addColorStop(0,"rgba(205, 140,39, 20)");
+            gradient2.addColorStop(0.50,"rgba(227, 30, 36, 71)");
+            gradient2.addColorStop(1,"rgba(150, 37, 35, 47)");
 
             var index = -1;
             var length = this.waves.length;
