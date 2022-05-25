@@ -448,7 +448,7 @@ blockquote p {
 	box-sizing: border-box;
 	left: 60px;
 	right: 60px;
-	height: 74px;
+	height: 145px;
 	background: #fff;
 	z-index: 50;
 	padding: 0 40px;
@@ -479,11 +479,11 @@ blockquote p {
 .logo-holder {
 	float: left;
 	position: relative;
-	top: 20px;
+	top: 12px;
 }
 .logo-holder img {
 	width: auto;
-	height: 32px;
+	height: 130px;
 }
 /* ------Navigation------------------------------------------------------------ */
 .nav-holder {
@@ -493,7 +493,7 @@ blockquote p {
 	left:0;
 	visibility:visible;
 	z-index:20;
-	top:18px;
+	top:54px;
 	margin-right:60px;
 }
 .nav-holder nav {
@@ -555,7 +555,7 @@ blockquote p {
 .nav-holder nav li a {
 	float: left;
 	padding: 10px;
-    font-size:13px;
+    font-size:20px;
     font-weight:bold;
     line-height: 25px;
     color: #000;
@@ -3211,10 +3211,10 @@ section.single-content-section {
 	color: #666;
 	width:100%;
 }
-.contact-details ul li a {
+.contact-details ul li a:hover {
 	color:#000;
 	transition: all 200ms linear;
-	text-transform: uppercase;
+	text-decoration: underline;
 }
 .contact-details-title h2{
     font-size: 20px;
