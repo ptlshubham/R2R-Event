@@ -665,8 +665,8 @@ function initValik() {
             });
         }
         var greenIcon = L.icon({
-            iconUrl: 'assets/images/map.png',
-            iconSize: [40, 40],
+            iconUrl: 'assets/images/map1.png',
+            iconSize: [65, 75],
             popupAnchor: [0, -26]
         });
         L.marker(latlog, {

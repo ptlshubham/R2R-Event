@@ -56,9 +56,9 @@ h6 {
 	font-size: 0.6em;
 }
 p {
-	text-align: left;
-    font-size: 12px;
-    line-height: 24px;
+	text-align: justify;
+    font-size: 16px;
+    line-height: 25px;
     padding-bottom: 10px;
     font-weight: 500;
     color: #5e646a;
@@ -1661,7 +1661,7 @@ blockquote p {
 .bold-text {
     text-align: left;
 	font-weight: 600;
-    font-size: 16px;
+    font-size: 20px;
     margin-bottom: 20px;
 }
 /*------ portfolio------------------------------------------------------*/
@@ -2747,8 +2747,8 @@ section.single-content-section {
 	margin-top: 50px;
 }
 .inline-facts-holder {
-	text-align: left;
-	margin-top: 50px;
+	text-align: center;
+	margin-top: 30px;
 } 
 .inline-facts {
 	float: left;
@@ -2762,7 +2762,7 @@ section.single-content-section {
 }
 .inline-facts h6 {
 	color: #999;
-	font-size: 11px;
+	font-size: 15px;
 }
 .services-item {
 	padding: 90px 40px 30px;
@@ -3130,7 +3130,7 @@ section.single-content-section {
 	width:480px;
 	position: absolute;
 	left:60px;
-	top:50%;
+	top:45%;
 	margin-top:-225px;
 	transform-style: preserve-3d;
 	perspective: 1000px;
@@ -3242,7 +3242,7 @@ section.single-content-section {
 }
 .hidden-contact_form-wrap_inner {
 	position: absolute;
-	top:0;
+	top:-40px;
 	left:0;
 	right:0;
 	bottom:0;
@@ -3302,7 +3302,7 @@ section.single-content-section {
 	font-family: 'Mukta', sans-serif;
 }
 .custom-form textarea {
-	height: 150px;
+	height: 135px;
 	resize: none;
 	padding: 35px 30px 25px 30px;
 	-webkit-appearance: none;
@@ -4399,6 +4399,7 @@ section.single-content-section {
     padding: 0 0 40px;
 }
 .hero-title h2 {
+	margin-top: 45px;
     font-size: 26px;
 }
 .error-container h2 {
