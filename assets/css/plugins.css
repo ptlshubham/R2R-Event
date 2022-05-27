@@ -8138,9 +8138,12 @@ canvas {
 }
 .fab {
   font-family: Font Awesome\5 Brands;
-  font-size: 18px;
+  font-size: 14px;
+ 
+}
+.fab1{
   padding-top: 15px;
-  margin-right: 16px;
+  
 }
 @font-face {
   font-family: Font Awesome\5 Pro;
