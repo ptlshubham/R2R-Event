@@ -49,6 +49,7 @@ h3 {
 }
 h4 {
 	font-size: 0.9em;
+	color: #faa731;
 }
 h5 {
 	font-size: 0.8em;
@@ -927,7 +928,8 @@ blockquote p {
 /*------ Button  ------------------------------------------------*/
 .single-btn , .hero-btn {
 	padding: 20px 40px;
-	background: #eee;
+	background-color: #ef5734; 
+	background-image: linear-gradient(315deg, #ef5734 0%, #ffcc2f 74%);
 	font-weight: 600;
 	text-transform: uppercase;
 	font-size: 10px;
@@ -940,6 +942,7 @@ blockquote p {
 }
 .single-btn span , .hero-btn span {
 	position: relative;
+	color: white;
 	z-index: 4;
 }
 .hero-btn {
@@ -2822,6 +2825,7 @@ section.single-content-section {
 	top: 30px;
 	left: 40px;
     font-weight: 600;
+	color: rgb(227, 29, 36);
 }
 .testilider {
 	padding: 0 40px;
@@ -3232,6 +3236,7 @@ section.single-content-section {
 	color: #000;
     font-weight: 800;
 	position: relative;
+	padding-top: 12px;
     padding-bottom: 10px;
 }
 .contact-details-title h2:before {
@@ -3443,6 +3448,8 @@ section.single-content-section {
 	text-transform: uppercase;
 	font-size: 10px;
 	color: #fff;
+	background-color: #ef5734; 
+	background-image: linear-gradient(315deg, #ef5734 0%, #ffcc2f 74%);
 	letter-spacing: 2px;
 }
 .blog-btn:hover {
