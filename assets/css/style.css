@@ -1029,12 +1029,21 @@ blockquote p {
 	transform: translateY(-50%);
 	z-index: 5;
 }
-.hero-carousel-wrapper {
+/* .hero-carousel-wrapper {
 	position: absolute;
 	left: 30%;
 	right: 0;
     top: 100px;
 	bottom: 220px;
+	overflow: hidden;
+	z-index: 4;
+} */
+.hero-carousel-wrapper {
+	position: absolute;
+	left: 30%;
+	right: 0;
+    top: 170px;
+	bottom: 190px;
 	overflow: hidden;
 	z-index: 4;
 }
@@ -1105,11 +1114,16 @@ blockquote p {
 .hero-carousel_project-title h3 a:hover {
 	color: rgba(255,255,255,0.7);
 }
-.hc-controls , .hc-pag-wrap {
+/* .hc-controls , .hc-pag-wrap {
 	position: absolute;
 	left: 30%;
 	bottom: 160px;
 	z-index: 50
+} */
+.hc-controls , .hc-pag-wrap {
+	position: absolute;
+	left: 30%;
+	bottom: 120px;
 }
 .hc-controls {
 	margin-bottom: -6px;
@@ -2090,7 +2104,7 @@ blockquote p {
 	position: absolute;
 	left: 60px;
 	right: 60px;
-	bottom: 110px;
+	bottom: 170px;
 	z-index: 50;
 }
 .fs-slider-controls .hc-pag-wrap {
