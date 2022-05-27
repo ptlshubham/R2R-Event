@@ -659,7 +659,7 @@ blockquote p {
 	float:left;
 	width:100%;
 	height:2px;
-	background:#000;
+	background: #faa731;
 	margin-bottom:4px;
 	border-radius:4px;
 	-webkit-transition: all 200ms linear;
@@ -872,6 +872,7 @@ blockquote p {
     color: #fff;
     font-weight: 700;
 	font-size:11px;
+	margin-top: -20px;
 }
 .sidebar-social li {
 	float:left;
@@ -2716,7 +2717,7 @@ section.single-content-section {
 /*------ footer------------------------------------------------------*/
 .main-footer {
 	background: #0a0a09;
-	padding: 90px 0;
+	padding: 70px 0;
 	position: relative;
 }
 .main-footer:before {
@@ -2724,17 +2725,17 @@ section.single-content-section {
 	position: absolute;
 	top: 0;
 	left: 50%;
-	height: 80px;
+	height: 60px;
 	width: 1px;
 	background: rgba(255,255,255,0.1);
 }
 .policy-box {
-	float: left;
 	color: #fff;
 	text-transform: uppercase;
     font-size: 10px;
     font-weight: 500;
     letter-spacing: 2px;
+	padding-bottom: 10px;
 }
 .footer-social {
 	float: right;
@@ -4043,6 +4044,7 @@ section.single-content-section {
 }
 .hero-title {
     padding-bottom: 30px;
+	padding-top: 20px;
 }
 .inline-facts-holder {
     margin: 0 0 30px;
@@ -4086,7 +4088,7 @@ section.single-content-section {
 	left:10px;
 	right: 10px;
 	height: 1px;
-	background: #ddd;
+	background: #faa731;
 }	
 .leaflet-left {
     right: 30px;
