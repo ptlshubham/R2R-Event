@@ -28,7 +28,8 @@ body{
 	font-family: 'Mukta', sans-serif;
 	font-weight: 400;
 	font-size: 12px;
-	background:#151515;
+	/* background:#0a0a09; */
+	background-color: #ffffff;
 	height:100%;
 	text-align:center;
 } 
@@ -61,7 +62,7 @@ p {
     line-height: 25px;
     padding-bottom: 10px;
     font-weight: 500;
-    color: #5e646a;
+    color: #666;
 }
 blockquote {
 	float:left;
@@ -93,7 +94,7 @@ blockquote p {
 	top:0;
 	right: 0;
 	bottom: 0;
-	background: #151515;
+	background: #0a0a09;
 }
 .main-loader-wrap {
 	z-index: 10001;
@@ -261,7 +262,7 @@ blockquote p {
 .content-holder{
 	position: absolute;
 	left:60px;
-	top:140px;
+	top:80px;
 	right: 60px;
 	padding:90px  0 0; 
 	z-index: 2;
@@ -357,13 +358,14 @@ blockquote p {
 	right: 60px;
 	top: 60px;
  	transition: all .4s ease-in-out;
-	background: #fff;
+	/* background: #fff; */
+	background:#0a0a09;
 	z-index: 1;
 }
 .hide_cb {
 	top: 100%;
 }
-.progress-bar-wrap {
+/* .progress-bar-wrap {
 	position:fixed;
 	top:26px;
 	left:30%;
@@ -373,7 +375,7 @@ blockquote p {
 	z-index:123;
 	transition: all .6s ease-in-out;
 	transition-delay: .6s;
-}
+} */
 .hide_pw {
 	left:100%;
 	right:100%;
@@ -449,10 +451,11 @@ blockquote p {
 	left: 60px;
 	right: 60px;
 	height: 145px;
-	background: #fff;
+	/* background: #fff; */
+	background:#0a0a09 ;
 	z-index: 50;
 	padding: 0 40px;
-	border-top: 1px solid #eee;
+	border-top: 1px solid #faa631;
 	transition: all .4s ease-in-out;
 }
 .main-header.top-header {
@@ -465,7 +468,7 @@ blockquote p {
 	left: 0;
 	right: 0;
 	height: 60px;
-	background: #151515;
+	background: #0a0a09;
 }
 .main-header.top-header:after {
 	content: '';
@@ -474,7 +477,7 @@ blockquote p {
 	left:40px;
 	right: 40px;
 	height: 1px;
-	background: #ddd;
+	background: #faa731;
 }
 .logo-holder {
 	float: left;
@@ -558,7 +561,8 @@ blockquote p {
     font-size:20px;
     font-weight:bold;
     line-height: 25px;
-    color: #000;
+    /* color: #000; */
+	color: #faa731;
 }
 .nav-holder nav li a:hover{
     color: #999;
@@ -603,7 +607,8 @@ blockquote p {
 	width: 4px;
 	height: 4px;
 	border-radius: 50%;
-	background: #000;
+	/* background: #000; */
+	background: #a20711;
 }
 .sb-button span , .sb-button span:before   {
 	top:0;
@@ -1028,8 +1033,8 @@ blockquote p {
 	position: absolute;
 	left: 30%;
 	right: 0;
-    top: 170px;
-	bottom: 190px;
+    top: 100px;
+	bottom: 220px;
 	overflow: hidden;
 	z-index: 4;
 }
@@ -1103,7 +1108,7 @@ blockquote p {
 .hc-controls , .hc-pag-wrap {
 	position: absolute;
 	left: 30%;
-	bottom: 120px;
+	bottom: 160px;
 	z-index: 50
 }
 .hc-controls {
@@ -1628,18 +1633,20 @@ blockquote p {
 	font-family: 'Playfair Display', serif;
 	position: relative;
 	font-weight: 600;
+	color: #e31d24;
 }
 .hero-title h4 {
 	padding-bottom: 10px;
 	font-size: 12px;
 	text-transform: uppercase;
 	font-weight: 600; 
+	color: #fff;
 }
 .hero-title.alighn-title h4 {
 	padding-bottom: 2px;
 }
 .hero-title {
-	padding-bottom: 80px;
+	padding-bottom: 60px;
 }
 .hero-title.alighn-title {
 	text-align: left;
@@ -1650,7 +1657,7 @@ blockquote p {
 	bottom: -10px;
 	width: 50px;
 	height: 2px;
-	background: #000;
+	background: #faa731;
 	left: 50%;
 	margin-left: -25px;
 }
@@ -1663,6 +1670,7 @@ blockquote p {
 	font-weight: 600;
     font-size: 20px;
     margin-bottom: 20px;
+	color: #faa731;
 }
 /*------ portfolio------------------------------------------------------*/
 .gallery-item,
@@ -1807,6 +1815,7 @@ blockquote p {
 	font-weight: 600;
 	margin-left: 10px;
 	font-size: 13px;
+	color: #faa731;
 }
 .gallery-filter_fw .gallery-filters   , .fixed-filter .gallery-filter_fw-counter  {
 	float: right;
@@ -1886,7 +1895,7 @@ blockquote p {
 	color:#fff;
 }
 .vis-det .grid-item-holder_title h3 a , .vis-det .grid-item-holder_title h5 {
-	color: #000;
+	color: #faa731;
 }
 .gallery-item:hover .grid-item-holder_title {
 	opacity: 1;
@@ -2631,7 +2640,7 @@ blockquote p {
 section {
 	float:left;
 	width:100%;
-	padding:90px 0;
+	/* padding:90px 0; */
 }
 section.single-content-section {
 	padding:70px 0 20px;
@@ -2689,7 +2698,7 @@ section.single-content-section {
 }
 /*------ footer------------------------------------------------------*/
 .main-footer {
-	background: #151515;
+	background: #0a0a09;
 	padding: 90px 0;
 	position: relative;
 }
@@ -2756,7 +2765,7 @@ section.single-content-section {
 }
 .inline-facts .num {
 	font-size: 36px;
-	color: #000;
+	color: #fff;
     font-weight: 700;
 	padding-right: 10px;
 }
@@ -2995,12 +3004,12 @@ section.single-content-section {
 	height: auto;
 }
 .dark-bg-wrap {
-	background: #151515;
+	background: #0a0a09;
 	padding: 110px 0 80px;
 }
 .dark-bg-text {
 	text-align: left;
-	margin-top: 160px;
+	/* margin-top: 160px; */
 	position: relative;
 }
 .dark-bg-text:before {
