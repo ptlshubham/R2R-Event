@@ -499,7 +499,7 @@ blockquote p {
 	visibility:visible;
 	z-index:20;
 	top:54px;
-	margin-right:160px;
+	/* margin-right:160px; */
 }
 .nav-holder nav {
 	position:relative;
@@ -596,11 +596,13 @@ blockquote p {
     color: #fff;
 } 
 .sb-button {
+	float: right;
 	width: 20px;
 	height: 20px;
 	position: relative;
-	top: 12px;
+	top: 65px;
 	cursor: pointer;
+	margin-right: 152px;
 }
 .sb-button span , .sb-button:before , .sb-button:after , .sb-button span:before {
 	content: '';
