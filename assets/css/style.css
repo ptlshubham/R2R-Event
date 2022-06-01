@@ -654,7 +654,7 @@ blockquote p {
 	left:50%;
 	width:22px;
 	height:20px;
-	margin-left:-11px;
+	/* margin-left:-11px; */
 	margin-top:-6px;
 }
 .nav-button span{
@@ -3280,7 +3280,7 @@ section.single-content-section {
 }
 .hidden-contact_form-wrap_inner {
 	position: absolute;
-	top:-40px;
+	top:-60px;
 	left:0;
 	right:0;
 	bottom:0;
@@ -3925,7 +3925,7 @@ section.single-content-section {
 }
 .main-menu{
 	position: absolute  ;
-	top:74px;
+	top:145px;
 	right:-20px;
 	width:300px;
 	z-index:50;
@@ -4456,6 +4456,15 @@ section.single-content-section {
     font-size: 124px;
     line-height: 154px;
     padding-bottom: 30px;
+}
+.sb-button{
+	top: -65px;
+}
+.nav-button{
+	margin-top: -96px;
+	top: -76%;
+    left: 13.5rem;
+
 }
 .hid-mob {
 	display: none;
