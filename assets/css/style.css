@@ -3124,6 +3124,7 @@ section.single-content-section {
 } 
 .team-item-title {
 	margin-top: 20px;
+	margin-bottom: 20px;
 	text-align: left;
 	color: #fff;
 	text-transform: uppercase;
