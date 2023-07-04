@@ -1735,19 +1735,26 @@ blockquote p {
 	position: relative;
 	z-index: 1;
 	background: #292929;
-	-webkit-transition: all 2000ms cubic-bezier(.19,1,.22,1) 0ms;
+	/*-webkit-transition: all 2000ms cubic-bezier(.19,1,.22,1) 0ms;
 	-webkit-transform: translateZ(0);
-    transform: translateZ(0);
-  	transition: all 2000ms cubic-bezier(.19,1,.22,1) 0ms;
+    transform: translateZ(0px) !important;
+  	transition: all 2000ms cubic-bezier(.19,1,.22,1) 0ms !important;*/
 }
-.gallery-item:hover img  {
-	-webkit-transform: scale(1.15);
-	transform: scale(1.15);
+.grid-item-holder img{
+	transform: translateZ(0) !important;
+	transition: all 2000ms cubic-bezier(.19,1,.22,1) 0ms !important;
 }
-.vis-det .gallery-item:hover img {
-	 -webkit-transform: scale(1.0);
-	transform: scale(1.0);
-	transition: all 0ms cubic-bezier(.19,1,.22,1) 0ms;
+.grid-item-holder img:hover  {
+	/*-webkit-transform: scale(1.15) !important;*/
+	transform: scale(1.15) !important;
+}
+/*.vis-det .grid-item-holder img:hover {
+	transform: scale(1.0) !important;
+	transition: all 0ms cubic-bezier(.19,1,.22,1) 0ms !important;
+}*/
+.lg-object{
+	transform: scale3d(1, 1, 1);
+    opacity: 1;
 }
 .hov-single-gallery  .gallery-item a {
 	position: relative;
